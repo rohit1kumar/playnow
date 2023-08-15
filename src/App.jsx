@@ -12,7 +12,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Box sx={{ backgroundColor: '#000' }}>
+      <Box sx={{ backgroundColor: 'primary.main' }}>
         <NavBar />
       </Box>
       <Routes>
