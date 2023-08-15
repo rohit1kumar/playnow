@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Box, Stack, Typography } from '@mui/material'
+import { Box, Stack, Typography, Link } from '@mui/material'
 import { SideBar, Videos } from './'
 import { fetchFromAPI } from '../utils/fetchFromAPI'
 
@@ -19,6 +19,7 @@ const Feed = () => {
             <Box sx={{
                 height: { sx: 'auto', md: '92vh' },
                 borderRight: '1px solid #3d3d3d',
+                overflowY: 'auto',
                 px: { sx: 0, md: 2 }
             }}>
                 <SideBar
@@ -28,7 +29,7 @@ const Feed = () => {
                 <Typography className="copyright"
                     variant='body2'
                     sx={{ mt: 1.5, color: '#fff' }}>
-                    Copyright 2023 @rohit1kumar
+                    Copyright 2023 <Link href='https://github.com/rohit1kumar?ref=playnow' target="_blank" rel="noreferrer" underline="hover" color="inherit" >@rohit1kumar</Link>
                 </Typography>
             </Box>
 
