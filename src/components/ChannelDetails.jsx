@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Box, colors } from '@mui/material'
 import { Videos, ChannelCard } from './'
-import { fetchFromAPI } from '../utils/fetchFromApi'
+import { fetchFromAPI } from '../utils/fetchFromAPI'
 
 const ChannelDetails = () => {
     const [channel, setChannel] = useState(null)
@@ -17,7 +17,7 @@ const ChannelDetails = () => {
             .then(data => setVideos(data?.items))
             .catch(err => console.log(err))
     }, [id])
- 
+
     return (
         <Box minHeight={'95vh'} backgroundColor='black'  >
             <Box >
