@@ -12,9 +12,9 @@ const SearchFeed = lazy(() => import("./components/SearchFeed"));
 function App() {
   return (
     <BrowserRouter>
-      <Box sx={{ backgroundColor: 'primary.main' }}>
+      {/* <Box sx={{ backgroundColor: 'primary.main', position: "relative" }}> */}
         <NavBar />
-      </Box>
+      {/* </Box> */}
       <Suspense fallback={
         <Box
           display="flex"
