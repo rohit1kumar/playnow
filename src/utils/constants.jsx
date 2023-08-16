@@ -23,7 +23,7 @@ export const categories = [
     { name: 'New', icon: <HomeIcon />, },
     { name: 'Coding', icon: <CodeIcon />, },
     { name: 'Art', icon: <ColorLensIcon />, },
-    { name: 'Dog & Cat', icon: <PetsIcon />, },
+    { name: 'Pets', icon: <PetsIcon />, },
     { name: 'Vlog', icon: <VideoCameraFrontIcon />, },
     { name: 'Cooking', icon: <OutdoorGrillIcon />, },
     { name: 'Music', icon: <MusicNoteIcon /> },
