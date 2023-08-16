@@ -43,6 +43,10 @@ a {
   border: none;
   outline: none;
   width: 350px;
+  font-size: 18px
+}
+.search-bar::placeholder {
+  font-size: 1.1rem;
 }
 
 .category-btn {
