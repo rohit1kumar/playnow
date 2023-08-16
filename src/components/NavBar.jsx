@@ -13,6 +13,7 @@ const NavBar = () => {
             sx={{
                 position: 'sticky',
                 top: 0,
+                zIndex: 100,
                 justifyContent: 'space-between',
                 backgroundColor: '#000',
                 minHeight: "8vh",
