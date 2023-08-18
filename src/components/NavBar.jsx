@@ -2,6 +2,7 @@ import { Stack } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { logo } from '../utils/constants'
 import SearchBar from './SearchBar'
+import { BorderBottom, Minimize } from '@mui/icons-material'
 
 const NavBar = () => {
     return (
@@ -12,8 +13,10 @@ const NavBar = () => {
             sx={{
                 position: 'sticky',
                 top: 0,
+                zIndex: 100,
                 justifyContent: 'space-between',
-                backgroundColor: '#000'
+                backgroundColor: '#000',
+                minHeight: "8vh",
             }}
         >
             <Link
